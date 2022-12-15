@@ -10,6 +10,69 @@ body {
   color: #fff;
 }
 
+h2 {
+  padding: 5px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-top: 50px;
+}
+
+.header .title {
+  background-color: green;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.header .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+i {
+  color: #fff;
+  background-color: green;
+  font-size: 30px;
+  padding: 6px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+i:hover {
+  color: green;
+  background-color: black;
+  transition: background-color 0.2s ease-in-out;
+}
+
+img {
+  width: 40px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
